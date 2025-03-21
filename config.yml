@@ -1,0 +1,20 @@
+# Configuration of the RegionName plugin.
+# # #
+# region - Message region.
+# not_region - Message not region.
+# hideNotRegion - hide NOT_REGION.
+# mode - Plugin mode. 1 - ActionBar. 2 - BossBar. 3 - All.
+# lang - Available: en, ru.
+# blacklist - The name of the regions that will not be displayed.
+# regionNames - Replacing the names of regions.
+# # #
+
+region: '{REGION}'
+not_region: 'NOT REGION'
+hideNotRegion: false
+mode: 1
+lang: en
+blackList: 
+ - hiddien_arena
+regionNames:
+ spawn: '&6Спавн'

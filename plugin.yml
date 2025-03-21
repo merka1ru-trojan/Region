@@ -1,0 +1,26 @@
+main: ru.ReDcTiOn.RegionName.Main
+name: RegionName
+description: This plugin displays the name of the region (worldguard) in ActionBar and BossBar.
+version: 2.8
+author: ReDcTiOn
+
+softdepend: [BarAPI, WorldEdit, WorldGuard]
+
+commands:
+  regionname:
+    description: Reload configuration.
+    aliases: [rn]
+    permission: regionname.reload
+    
+permissions:
+  regionname.*:
+    description: Access to all functionality of the plugin.
+    children:
+      regionname.reload: true
+      regionname.use: true
+  regionname.reload:
+    description: Reload configuration.
+    default: false
+  regionname.use:
+    description: Will the player to see the name of the region.
+    default: false

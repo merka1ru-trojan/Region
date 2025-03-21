@@ -1,0 +1,11 @@
+# Файл сообщений.
+
+noPerm: '&bRegionName > &7У вас нет прав.'
+reload: '&bRegionName > &7Конфигурация и сообщений обновлены.'
+blacklist_add: '&bRegionName > &7Регион добавлен.'
+blacklist_remove: '&bRegionName > &7Регион удален.'
+helpTitle: '&6------ RegionName ------'
+helpReload: '&b* /rn reload &7- обновлений конфигурации и сообщений.'
+helpBlackListAdd: '&b* /rn add &7- добавить регион в черный список.'
+helpBlackListRemove: '&b* /rn remove &7- удалить регион из черного списка.'
+helpFooter: '&6------------------------'
